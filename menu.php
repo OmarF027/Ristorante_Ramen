@@ -128,123 +128,183 @@
   <h1>Il nostro Menù</h1>
 
   <section class="container" style="margin-top: -10px;">
-    <h3 class="menu-category">Antipasti / Fritti</h3>
-    <div class="grid">
-      <div class="item">
-        <h4>Mozzarelline Fritte</h4>
-        <p>Mini mozzarelle panate e fritte servite con salsa rosa</p>
-        <div><strong>€6.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Arancino</h4>
-        <p>Tipico fritto siciliano con riso, ragù, piselli e formaggio filante</p>
-        <div><strong>€4.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Olive Ascolane</h4>
-        <p>Olive verdi ripiene di carne, impanate e fritte</p>
-        <div><strong>€6.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Patatine Fritte</h4>
-        <p>Classiche patatine croccanti servite calde</p>
-        <div><strong>€3.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Bruschette</h4>
-        <p>Pane tostato con pomodorini freschi, basilico e olio EVO</p>
-        <div><strong>€5.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Donzelle</h4>
-        <p>Piccoli bocconcini di pasta fritta, leggeri e croccanti</p>
-        <div><strong>€4.50</strong></div>
-      </div>
-    </div> <!-- Chiudo Grid antipasti -->
-
-    <h3 class="menu-category">Pizze Rosse</h3>
-    <div class="grid">
-      <div class="item">
-        <h4>Margherita</h4>
-        <p>La classica pizza con pomodoro, mozzarella e basilico fresco.</p>
-        <div><strong>€ 7.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Marinara</h4>
-        <p>Pizza con pomodoro, aglio, origano e olio d'oliva.</p>
-        <div><strong>€ 6.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Diavola</h4>
-        <p>Base con pomodoro fresco, mozzarella fior di latte e salamino piccante.</p>
-        <div><strong>€ 8.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Napoli</h4>
-        <p>Pomodoro, mozzarella, acciughe e capperi.</p>
-        <div><strong>€ 10.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Wurstel e Patatine</h4>
-        <p>Pomodoro, mozzarella, wurstel e patatine fritte.</p>
-        <div><strong>€ 8.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Prosciutto e Funghi</h4>
-        <p>Pomodoro, mozzarella, prosciutto cotto e funghi champignon freschi.</p>
-        <div><strong>€ 9.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Tonno e Cipolla</h4>
-        <p>Pomodoro, mozzarella, tonno e cipolla dolce.</p>
-        <div><strong>€ 9.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Quattro Stagioni</h4>
-        <p>Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi e olive nere.</p>
-        <div><strong>€ 10.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Boscaiola</h4>
-        <p>Pomodoro, mozzarella, salsiccia, e funghi.</p>
-        <div><strong>€ 9.00</strong></div>
-      </div>
+  <h3 class="menu-category">Antipasti / Fritti</h3>
+  <div class="grid">
+    <div class="item">
+      <h4>Mozzarelline Fritte</h4>
+      <p>Mini mozzarelle panate e fritte servite con salsa rosa</p>
+      <div><strong>€6.00</strong></div>
     </div>
-
-    <h3 class="menu-category">Pizze Bianche</h3>
-    <div class="grid">
-      <div class="item">
-        <h4>Caprese</h4>
-        <p>Mozzarella di bufala, pomodoro fresco e basilico.</p>
-        <div><strong>€ 8.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Primavera</h4>
-        <p>Mozzarella, pomodorini freschi, rucola e scaglie di parmigiano.</p>
-        <div><strong>€ 7.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Burrata e Crudo</h4>
-        <p>Burrata fresca, prosciutto crudo di Parma e rucola.</p>
-        <div><strong>€ 9.00</strong></div>
-      </div>
-      <div class="item">
-        <h4>Quattro Formaggi</h4>
-        <p>Mozzarella, gorgonzola, parmigiano e provola affumicata.</p>
-        <div><strong>€ 8.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Valdostana</h4>
-        <p>Mozzarella, prosciutto cotto, funghi e fontina valdostana.</p>
-        <div><strong>€ 8.50</strong></div>
-      </div>
-      <div class="item">
-        <h4>Salsiccia e Friarielli</h4>
-        <p>Salsiccia italiana, friarielli e mozzarella.</p>
-        <div><strong>€ 8.50</strong></div>
-      </div>
+    <div class="item">
+      <h4>Arancino</h4>
+      <p>Tipico fritto siciliano con riso, ragù, piselli e formaggio filante</p>
+      <div><strong>€4.50</strong></div>
     </div>
-  </section>
+    <div class="item">
+      <h4>Olive Ascolane</h4>
+      <p>Olive verdi ripiene di carne, impanate e fritte</p>
+      <div><strong>€6.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Patatine Fritte</h4>
+      <p>Classiche patatine croccanti servite calde</p>
+      <div><strong>€3.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Bruschette</h4>
+      <p>Pane tostato con pomodorini freschi, basilico e olio EVO</p>
+      <div><strong>€5.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Donzelle</h4>
+      <p>Piccoli bocconcini di pasta fritta, leggeri e croccanti</p>
+      <div><strong>€4.50</strong></div>
+    </div>
+  </div> <!-- chiudo grid antipasti -->
+
+  <h3 class="menu-category">Pizze Rosse</h3>
+  <div class="grid">
+    <div class="item">
+      <h4>Margherita</h4>
+      <p>La classica pizza con pomodoro, mozzarella e basilico fresco.</p>
+      <div><strong>€ 7.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Marinara</h4>
+      <p>Pizza con pomodoro, aglio, origano e olio d'oliva.</p>
+      <div><strong>€ 6.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Diavola</h4>
+      <p>Base con pomodoro fresco, mozzarella fior di latte e salamino piccante.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Napoli</h4>
+      <p>Pomodoro, mozzarella, acciughe e capperi.</p>
+      <div><strong>€ 10.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Wurstel e Patatine</h4>
+      <p>Pomodoro, mozzarella, wurstel e patatine fritte.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Prosciutto e Funghi</h4>
+      <p>Pomodoro, mozzarella, prosciutto cotto e funghi champignon freschi.</p>
+      <div><strong>€ 9.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Tonno e Cipolla</h4>
+      <p>Pomodoro, mozzarella, tonno e cipolla dolce.</p>
+      <div><strong>€ 9.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Quattro Stagioni</h4>
+      <p>Pomodoro, mozzarella, prosciutto cotto, funghi, carciofi e olive nere.</p>
+      <div><strong>€ 10.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Boscaiola</h4>
+      <p>Pomodoro, mozzarella, salsiccia, e funghi.</p>
+      <div><strong>€ 9.00</strong></div>
+    </div>
+  </div> <!-- chiudo grid pizze rosse -->
+
+  <h3 class="menu-category">Pizze Bianche</h3>
+  <div class="grid">
+    <div class="item">
+      <h4>Caprese</h4>
+      <p>Mozzarella di bufala, pomodoro fresco e basilico.</p>
+      <div><strong>€ 7.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Primavera</h4>
+      <p>Mozzarella, pomodorini freschi, rucola e scaglie di parmigiano.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Burrata e Crudo</h4>
+      <p>Burrata fresca, prosciutto crudo di Parma e rucola.</p>
+      <div><strong>€ 9.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Quattro Formaggi</h4>
+      <p>Mozzarella, gorgonzola, parmigiano e provola affumicata.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Patate e Rosmarino</h4>
+      <p>Patate a fette sottili, rosmarino fresco e mozzarella.</p>
+      <div><strong>€ 8.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Salsiccia e Friarielli</h4>
+      <p>Salsiccia, friarielli e mozzarella fior di latte.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+  </div> <!-- chiudo grid pizze bianche -->
+
+  <h3 class="menu-category">Calzoni</h3>
+  <div class="grid">
+    <div class="item">
+      <h4>Calzone Classico</h4>
+      <p>Mozzarella, prosciutto cotto e pomodoro.</p>
+      <div><strong>€ 8.50</strong></div>
+    </div>
+    <div class="item">
+      <h4>Calzone Bufalina</h4>
+      <p>Mozzarella di bufala, pomodoro e basilico.</p>
+      <div><strong>€ 9.00</strong></div>
+    </div>
+    <div class="item">
+      <h4>Calzone Patonza</h4>
+      <p>Mozzarella, patate a fette sottili, rosmarino e pancetta.</p>
+      <div><strong>€ 9.00</strong></div>
+    </div>
+  </div> <!-- chiudo grid calzoni -->
+
+  <h3 class="menu-category">Bevande</h3>
+<div class="grid">
+  <div class="item">
+    <h4>Peroni</h4>
+    <div><strong>€ 4.50</strong></div>
+  </div>
+  <div class="item">
+    <h4>Moretti</h4>
+    <div><strong>€ 4.00</strong></div>
+  </div>
+  <div class="item">
+    <h4>Ichnusa</h4>
+    <div><strong>€ 4.50</strong></div>
+  </div>
+  <div class="item">
+    <h4>Heineken</h4>
+    <div><strong>€ 3.50</strong></div>
+  </div>
+  <div class="item">
+    <h4>Coca-Cola</h4>
+    <div><strong>€ 3.00</strong></div>
+  </div>
+  <div class="item">
+    <h4>Fanta</h4>
+    <div><strong>€ 3.00</strong></div>
+  </div>
+  <div class="item">
+    <h4>Sprite</h4>
+    <div><strong>€ 3.00</strong></div>
+  </div>
+  <div class="item">
+    <h4>Acqua Naturale</h4>
+    <div><strong>€ 1.50</strong></div>
+  </div>
+  <div class="item">
+    <h4>Acqua Frizzante</h4>
+    <div><strong>€ 1.50</strong></div>
+  </div>
+</div>
+
+</section>
 
   <div class="order-button-container">
     <a href="https://glovoapp.com/it/it/follonica/" target="_blank" class="order-button">

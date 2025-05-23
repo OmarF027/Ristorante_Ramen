@@ -1,0 +1,192 @@
+:root {
+    --bg-color: #F5F5F5;
+    --primary-color: #2C3E50;
+    --secondary-color: #3498DB;
+    --transition-speed: 0.3s;
+    --menu-bg-color: transparent;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: #333333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--bg-color);
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 60px;
+    transition: transform 0.4s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.4);
+}
+
+.menu-toggle {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    cursor: pointer !important;
+    position: fixed !important;
+    top: 25px !important;
+    right: 20px !important;
+    z-index: 1001 !important;
+    background: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+.menu-toggle:hover {
+    background: #ffffff !important;
+}
+
+.menu-toggle span {
+    display: block !important;
+    width: 25px !important;
+    height: 3px !important;
+    background: var(--primary-color) !important;
+    transition: all var(--transition-speed) !important;
+    position: absolute !important;
+}
+
+.menu-toggle span:nth-child(1) {
+    transform: translateY(-8px) !important;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform: translateY(0) !important;
+}
+
+.menu-toggle span:nth-child(3) {
+    transform: translateY(8px) !important;
+}
+
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(45deg) !important;
+}
+
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0 !important;
+}
+
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(-45deg) !important;
+}
+
+.navigation {
+    display: none !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: #F5F5F5 !important;
+    padding: 0 20px !important;
+    transition: all var(--transition-speed) !important;
+    z-index: 999 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transform: translateX(100%) !important;
+}
+
+.navigation.open {
+    display: flex !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translateX(0) !important;
+    background-color: #B22222 !important; 
+}
+
+.navigation ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    list-style: none !important;
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.navigation ul li a {
+    text-decoration: none !important;
+    color: #FFFFFF !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding: 15px 20px !important;
+    border-radius: 6px !important;
+    transition: background-color var(--transition-speed), color var(--transition-speed) !important;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a:focus {
+    background-color: #000 !important;
+    color: #FFFFFF !important;
+    outline: none !important;
+}
+
+.navigation ul li a:active,
+.navigation ul li a.selected {
+    color: var(--secondary-color) !important;
+}
+
+/* Media Queries per schermi più piccoli */
+@media (max-width: 768px) {
+    .menu-toggle {
+        position: fixed !important;
+        top: 25px !important;
+        right: 20px !important;
+    }
+
+    .navigation {
+        top: 0 !important;
+        left: 0 !important;
+        transform: translateX(0) !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-color: #000000 !important; /* Fondo scuro per il menu in modalità mobile */
+        padding: 0 !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .navigation ul {
+        flex-direction: column !important;
+        gap: 20px !important;
+        margin-top: 40px !important;
+        padding: 0 !important;
+        align-items: center !important;
+    }
+
+    .navigation ul li a {
+        font-size: 20px !important;
+        padding: 12px 20px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation ul li a {
+        font-size: 18px !important;
+        padding: 10px 15px !important;
+    }
+}

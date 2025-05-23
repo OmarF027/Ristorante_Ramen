@@ -1,0 +1,57 @@
+.footer__container {
+    background: #000;
+    color: #FFFFFF;
+    padding: 50px 0; /* Adjusted from inline style */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px); /* Moved from inline style */
+}
+
+.social__media {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.social__media--wrap {
+    display: flex;
+    justify-content: space-between; /* Logo - Testo - Icone */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    padding: 0 2rem; /* Adds space on the sides */
+    box-sizing: border-box;
+}
+
+.footer__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.website__rights {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0; /* Added margin for spacing */
+}
+
+.social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icon--link {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social__icon--link:hover {
+    transform: scale(1.2);
+}

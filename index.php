@@ -47,6 +47,10 @@
 
 <?php include('contatti.php'); ?>
 
+<div style="border-bottom: 3px solid #dcdcdc;"></div>
+
+<?php include('lavora.php'); ?>
+
 <style>
     .whatsapp-icon {
         position: fixed;

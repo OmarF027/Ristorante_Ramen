@@ -1,6 +1,6 @@
 <section id="menù" class="sezione">
     <div class="section-inner">
-        <h2>Le nostre specialità!</h2>
+        <h2 style="margin-top: -20px;">Le nostre specialità!</h2>
         <div class="grid">
             <!-- Card Pizza Margherita -->
             <div class="item gallery-item">

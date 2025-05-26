@@ -4,15 +4,15 @@
     <div class="contact-header">
       <h1>Contatti</h1>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
         <strong>Vuoi saperne di più o riservare un tavolo?</strong>
       </p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
        Il nostro staff è a disposizione per prenotazioni, informazioni sul menù o per supportarti negli ordini da asporto e domicilio. Saremo lieti di assisterti.
       </p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
         Organizziamo cene per gruppi, eventi aziendali e ricorrenze con soluzioni pensate per ogni esigenza. Chiamaci!
       </p>
     </div>

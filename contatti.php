@@ -68,6 +68,15 @@
     </a>
   </p>
 </div> <!-- chiusura corretta -->
+
+<div class="info-item">
+  <i class="fas fa-file-alt" aria-hidden="true"></i>
+  <p>
+    <a href="cookie_policy.php" target="_blank" rel="noopener noreferrer" aria-label="Cookie Policy" class="cookie-link">
+      Cookie Policy
+    </a>
+  </p>
+</div>
         </div>
       </div>
     </div>

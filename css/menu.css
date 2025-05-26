@@ -54,17 +54,25 @@ h1 {
 
 /* --- Menu item layout --- */
 .item {
-  background: #1a1a1a !important;
-  padding: 25px !important;
-  border-radius: 10px !important;
-  transition: all 0.3s ease !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
-  border: 1px solid #333 !important;
-  text-align: left !important;
-  cursor: default !important;
   display: flex !important;
   flex-direction: column !important;
+  padding: 25px !important;
+  background: #1a1a1a !important;
+  border-radius: 10px !important;
+  border: 1px solid #333 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
+  cursor: default !important;
+  text-align: left !important;
+  transition: all 0.3s ease !important;
 }
+
+.item > div:last-child {
+  margin-top: auto !important;  /* spinge il prezzo in basso */
+  display: flex;
+  align-items: center;
+  height: 30px; /* opzionale: fissa altezza del contenitore prezzo */
+}
+
 
 .item:hover {
   transform: translateY(-5px) !important;

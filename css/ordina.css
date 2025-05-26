@@ -76,13 +76,13 @@
 
 .order-button {
     display: inline-block;
-    background-color: #FFD700;
-    color: #000;
+    background-color: #c0392b !important;
+    color: #fff;
     padding: 16px 32px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid #FFD700;
+    border: 2px solid #c0392b !important;
     border-radius: 50px;
     text-decoration: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -93,9 +93,9 @@
 
 .order-button:hover {
     transform: translateY(-4px) scale(1.05);
-    background-color: #FFD700; 
+    background-color: #c0392b !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    color: #000; 
+    color: #fff; 
 }
 
 .order-button:active {

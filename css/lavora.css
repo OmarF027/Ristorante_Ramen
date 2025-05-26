@@ -41,6 +41,13 @@
     text-overflow: ellipsis;
 }
 
+@media (max-width: 320px) {
+    .lavora-title {
+        font-size: 1.4rem !important;
+        letter-spacing: -0.5px !important;
+    }
+}
+
 /* Label */
 .lavora-section label {
     font-weight: 600;

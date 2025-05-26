@@ -160,14 +160,22 @@ header {
     .navigation {
         top: 0 !important;
         left: 0 !important;
-        transform: translateX(0) !important;
         width: 100% !important;
         height: 100% !important;
-        background-color: #000000 !important; /* Fondo scuro per il menu in modalità mobile */
+        background-color: #B22222 !important;
         padding: 0 !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
+        transform: translateX(100%) !important; /* Partenza fuori dallo schermo */
+        transition: transform var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1) !important; /* Animazione fluida */
+        opacity: 1 !important; /* Forza opacità piena */
+        pointer-events: none !important; /* Disabilita interazioni quando è chiuso */
+    }
+
+    .navigation.open {
+        transform: translateX(0) !important;
+        pointer-events: auto !important; /* Riabilita interazioni quando aperto */
     }
 
     .navigation ul {
@@ -181,12 +189,5 @@ header {
     .navigation ul li a {
         font-size: 20px !important;
         padding: 12px 20px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    .navigation ul li a {
-        font-size: 18px !important;
-        padding: 10px 15px !important;
     }
 }

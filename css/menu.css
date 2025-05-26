@@ -44,15 +44,6 @@ h1 {
   }
 }
 
-h2 {
-  text-align: center !important;
-  font-size: 2.5em !important;
-  color: #ffffff !important;
-  margin: 50px 0 10px !important;
-  animation: titleReveal 1s ease forwards !important;
-  opacity: 0 !important;
-}
-
 .menu-category {
   font-size: 1.8em !important;
   color: #ffffff !important;
@@ -106,48 +97,28 @@ h2 {
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  .menu-toggle {
-    top: 25px !important;
-    right: 20px !important;
-  }
-
-  .navigation {
-    transform: translateX(0) !important;
-  }
-
   .navigation ul {
-    margin-top: 40px !important;
-    align-items: center !important;
+    gap: 25px !important; /* Spaziatura verticale tra le voci */
   }
 
   .navigation ul li a {
-    font-size: 20px !important;
-    padding: 12px 20px !important;
-  }
-
-  .order-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .order-text {
-    padding-left: 0;
-  }
-
-  .order-section h1 {
-    font-size: 2.2em;
-    text-align: center;
-  }
-
-  .delivery-text p {
-    font-size: 1em;
-    text-align: center;
+    padding: 18px 35px !important; /* Padding interno aumentato */
+    margin: 12px 0 !important; /* Spazio sopra/sotto ogni voce */
   }
 }
 
 @media (max-width: 480px) {
   .navigation ul li a {
-    font-size: 18px !important;
-    padding: 10px 15px !important;
+    padding: 15px 25px !important;
+    margin: 10px 0 !important;
   }
+}
+
+/* Per il desktop (aggiungere in fondo al file) */
+.navigation ul {
+  gap: 40px !important; /* Stessa spaziatura delle altre pagine */
+}
+
+.navigation ul li a {
+  padding: 10px 20px !important; /* Stesso padding delle altre pagine */
 }

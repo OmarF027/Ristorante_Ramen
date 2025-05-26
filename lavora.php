@@ -90,24 +90,52 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['lavora_form'])) {
 }
 ?>
 
-<div style="max-width: 800px; margin: 0 auto; padding: 20px;">
-    <h1>Lavora con noi</h1>
+<style>
+/* Stili unificati */
+.text-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px 10px 20px !important; /* Aumentato padding inferiore */
+}
 
-    <p style="font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #000;
+    opacity: 0;
+    animation: fadeInUp 1s 0.5s forwards;
+    padding-bottom: 15px !important; /* Aumentato spazio tra paragrafi */
+    margin: 0 !important;
+}
+
+.text-content p:last-child {
+    padding-bottom: 10px !important; /* Spazio aumentato prima del form */
+}
+
+.lavora-section {
+    margin-top: 20px !important; /* Aumentato spazio tra ultimo paragrafo e form */
+}
+
+</style>
+
+<div class="text-content" id="lavora">
+    <h1 class="lavora-title">Lavora con noi</h1>
+
+    <p>
         <strong>Stiamo cercando te!</strong>
     </p>
 
-    <p style="font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
-        Sei appassionato di pizza, cucina e ospitalità? Siamo sempre alla ricerca di persone entusiaste e motivate per entrare a far parte del team di <strong>21OVEN</strong>.
+    <p>
+        Stai cercando nuove opportunità di carriera? Siamo sempre alla ricerca di persone entusiaste e motivate per entrare a far parte del team di <strong>21OVEN</strong>.
     </p>
 
-    <p style="font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
-        Compila il form qui sotto e inviaci la tua candidatura: ti contatteremo al più presto per conoscerti meglio. Unisciti a noi e cresci insieme a una realtà giovane, dinamica e in continua evoluzione!
+    <p>
+        Compila il form qui sotto e inviaci la tua candidatura: ti contatteremo al più presto. Unisciti a una realtà giovane, dinamica e in continua crescita.
     </p>
 </div>
 
 <!-- Sezione form -->
-<div id="lavora" class="lavora-section" style="padding: 60px 20px;">
+<div id="lavora" class="lavora-section" style="padding: 30px 20px;">
     <?php if ($lavora_success): ?>
         <p style="color: green;">Candidatura inviata con successo!</p>
     <?php elseif ($lavora_error): ?>

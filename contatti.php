@@ -60,6 +60,14 @@
             <i class="fas fa-envelope"></i>
             <p><a href="mailto:info@21oven.com">info@21oven.com</a></p>
           </div>
+           <div class="info-item">
+  <i class="fas fa-file-alt" aria-hidden="true"></i>
+  <p>
+    <a href="privacy.php" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy" class="privacy-link">
+      Privacy Policy
+    </a>
+  </p>
+</div> <!-- chiusura corretta -->
         </div>
       </div>
     </div>

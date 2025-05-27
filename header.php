@@ -21,7 +21,7 @@ $isHome = ($currentPage === 'index.php');
             <li><a href="menu.php">Menù</a></li>
             <li><a href="<?php echo $isHome ? '#ordina' : 'index.php#ordina'; ?>">Ordina</a></li>
             <li><a href="<?php echo $isHome ? '#contatti' : 'index.php#contatti'; ?>">Contatti</a></li>
-            <li><a href="<?php echo $isHome ? '#lavora' : 'index.php#lavora'; ?>" id="lavora-link">Lavora con noi</a></li>
+            <li><a href="<?php echo $isHome ? '#lavora' : 'index.php#lavora'; ?>" id="lavora-link">Lavoro</a></li>
         </ul>
     </nav>
 </header>

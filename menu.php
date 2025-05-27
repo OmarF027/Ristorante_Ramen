@@ -11,10 +11,11 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/menu.css" />
-  <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/ordina.css" />
-
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/mediaqueries.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  
   <style>
     body {
       margin: 0;
@@ -22,6 +23,12 @@
       background-color: #1a1a1a;
       color: #fff;
     }
+
+@media (min-width: 1024px) {
+    .navigation ul {
+        gap: 40px !important;
+    }
+}
 
     .menu-page h1 {
       margin: 20px 0 10px !important;
@@ -100,25 +107,36 @@
       margin: 40px 0;
     }
 
-    /* WhatsApp Icon */
     .whatsapp-icon {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 15px 18px;
-      border-radius: 50%;
-      font-size: 28px;
-      z-index: 1000;
-      transition: 0.3s ease;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        padding: 15px 18px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        z-index: 1000;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-size: 28px;
+        line-height: 1;
     }
-
     .whatsapp-icon:hover {
-      transform: scale(1.1) rotate(10deg);
-      background-color: #128C7E;
+        transform: scale(1.1) rotate(15deg);
+        background-color: #128C7E;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.4);
     }
-  </style>
+    
+    @media (max-width: 768px) {
+        .whatsapp-icon {
+            bottom: 15px;
+            right: 15px;
+            padding: 12px 15px;
+            font-size: 24px;
+        }
+    }
+</style>
 </head>
 
 <body class="menu-page">

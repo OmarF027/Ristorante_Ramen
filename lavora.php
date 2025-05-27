@@ -143,23 +143,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['lavora_form'])) {
     <?php endif; ?>
 
     <form action="#lavora" method="post" enctype="multipart/form-data">
-        <input type="hidden" name="lavora_form" value="1">
-        
-        <label>Nome</label><br>
-        <input type="text" name="nome" required><br><br>
+    <input type="hidden" name="lavora_form" value="1">
+    
+    <label>Nome</label><br>
+    <input type="text" name="nome" required><br><br>
 
-        <label>Email</label><br>
-        <input type="email" name="email" required><br><br>
+    <label>Email</label><br>
+    <input type="email" name="email" required><br><br>
 
-        <label>Telefono</label><br>
-        <input type="text" name="telefono"><br><br>
+    <label>Telefono</label><br>
+    <input type="text" name="telefono" required><br><br>
 
-        <label>Messaggio</label><br>
-        <textarea name="messaggio"></textarea><br><br>
+    <label>Messaggio</label><br>
+    <textarea name="messaggio" required></textarea><br><br>
 
-        <label>CV (PDF)</label><br>
-        <input type="file" name="cv" accept=".pdf"><br><br>
+    <label>CV (PDF)</label><br>
+    <input type="file" name="cv" accept=".pdf" required><br><br>
 
-        <button type="submit">Invia candidatura</button>
-    </form>
+    <button type="submit">Invia candidatura</button>
+</form>
+
 </div>

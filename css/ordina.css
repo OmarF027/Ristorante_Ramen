@@ -76,16 +76,16 @@
 
 .order-button {
     display: inline-block;
-    background-color: #c0392b !important;
+    background-color: #34495e !important; 
     color: #fff;
     padding: 16px 32px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid #c0392b !important;
+    border: 2px solid #34495e !important;
     border-radius: 50px;
     text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.4);
     transition: all 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
@@ -93,10 +93,12 @@
 
 .order-button:hover {
     transform: translateY(-4px) scale(1.05);
-    background-color: #c0392b !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    color: #fff; 
+    background-color: #34495e !important;
+    box-shadow: 0 6px 20px rgba(52, 73, 94, 0.5);
+    color: #fff;
 }
+
+
 
 .order-button:active {
     transform: translateY(1px) scale(0.98);

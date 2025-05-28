@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Privacy e Cookie Policy | 21OVEN</title>
+    <title>Privacy e Cookie Policy | GOL D. RAMEN</title>
 
     <!-- Font e Icone -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
@@ -27,13 +27,13 @@
 <main style="max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: 'Kumbh Sans', sans-serif; line-height: 1.6;">
 
   <h1>Privacy Policy</h1>
-  <p>Questo documento descrive come <strong>21OVEN</strong> gestisce i dati personali degli utenti in conformità al Regolamento Europeo 2016/679 (GDPR).</p>
+  <p>Questo documento descrive come <strong>GOL D. RAMEN</strong> gestisce i dati personali degli utenti in conformità al Regolamento Europeo 2016/679 (GDPR).</p>
 
   <h2>1. Titolare del trattamento</h2>
   <p>
-    Il titolare del trattamento dei dati è <strong>21OVEN</strong>, con sede in Toscana, Italia.<br>
+    Il titolare del trattamento dei dati è <strong>GOL D. RAMEN</strong>, con sede in Toscana, Italia.<br>
     Per qualsiasi richiesta riguardante la privacy potete contattarci a:  
-    <a href="mailto:info@21oven.com">info@21oven.com</a>.
+    <a href="mailto:info@gol_d_ramen.com">info@gol_d_ramen.com</a>.
   </p>
 
   <h2>2. Tipi di dati raccolti</h2>
@@ -82,7 +82,7 @@
       <li>Presentare reclamo all’Autorità Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it/" target="_blank" rel="noopener noreferrer">Garante Privacy</a>).</li>
     </ul>
     Per esercitare tali diritti, scrivete a:  
-    <a href="mailto:info@21oven.com">info@21oven.com</a>.
+    <a href="mailto:info@gol_d_ramen.com">info@gol_d_ramen.com</a>.
   </p>
 
   <h2>9. Aggiornamenti della policy</h2>
@@ -94,7 +94,7 @@
   <h2>10. Ulteriori informazioni</h2>
   <p>
     Per qualsiasi dubbio o chiarimento potete contattarci via email:  
-    <a href="mailto:info@21oven.com">info@21oven.com</a>.
+    <a href="mailto:info@gol_d_ramen.com">info@gol_d_ramen.com</a>.
   </p>
 
 </main>

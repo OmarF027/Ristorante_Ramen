@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Cookie Policy | 21OVEN</title>
+    <title>Cookie Policy | GOL D. RAMEN</title>
 
     <!-- Font e Icone -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
@@ -26,7 +26,7 @@
 <main style="max-width: 900px; margin: 40px auto; padding: 0 20px; font-family: 'Kumbh Sans', sans-serif; line-height: 1.6;">
 
   <h1>Cookie Policy</h1>
-  <p>Questa Cookie Policy spiega cosa sono i cookie e come li utilizziamo sul sito di <strong>21OVEN</strong>.</p>
+  <p>Questa Cookie Policy spiega cosa sono i cookie e come li utilizziamo sul sito di <strong>GOL D. RAMEN</strong>.</p>
 
   <h2>1. Cosa sono i cookie?</h2>
   <p>
@@ -35,7 +35,7 @@
 
   <h2>2. Tipi di cookie utilizzati</h2>
   <p>
-    Il sito <strong>21OVEN</strong> utilizza esclusivamente:
+    Il sito <strong>GOL D. RAMEN</strong> utilizza esclusivamente:
     <ul>
       <li><strong>Cookie tecnici:</strong> necessari per il corretto funzionamento del sito, ad esempio per mantenere la sessione attiva, salvare le preferenze di lingua o garantire la sicurezza del sito. Questi cookie non richiedono il consenso dell’utente.</li>
     </ul>
@@ -62,7 +62,7 @@
   <h2>5. Contatti</h2>
   <p>
     Per qualsiasi informazione o chiarimento potete contattarci via email:  
-    <a href="mailto:info@21oven.com">info@21oven.com</a>.
+    <a href="mailto:info@gol_d_ramen.com">info@gol_d_ramen.com</a>.
   </p>
 
 </main>

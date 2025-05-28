@@ -4,18 +4,18 @@
     <div class="contact-header">
       <h1>Contatti</h1>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
-        <strong>Vuoi saperne di più o riservare un tavolo?</strong>
-      </p>
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
+  <strong>Vuoi scoprire di più o prenotare un tavolo?</strong>
+</p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
-       Il nostro staff è a disposizione per prenotazioni, informazioni sul menù o per supportarti negli ordini da asporto e domicilio. Saremo lieti di assisterti.
-      </p>
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
+  Il nostro team è pronto ad aiutarti con prenotazioni, dettagli sul menù o per supportarti negli ordini da asporto e delivery. Siamo qui per offrirti la migliore esperienza ramen.
+</p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
-        Organizziamo cene per gruppi, eventi aziendali e ricorrenze con soluzioni pensate per ogni esigenza. Chiamaci!
-      </p>
-    </div>
+<p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #000; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 0.5s forwards;">
+  Ti aspettiamo per farti scoprire di persona la qualità e la passione che mettiamo in ogni piatto. Vieni a trovarci!
+</p>
+
 
     <div class="contact-grid">
       <!-- Mappa -->
@@ -26,7 +26,7 @@
         </h3>
         <div class="map-responsive">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.9853106902353!2d10.764921515715145!3d42.92858487914806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d61c71c9cc9395%3A0x40f6b22d3dd33ed1!2sFollonica%2C%20GR!5e0!3m2!1sit!2sit!4v1716123456789"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.526054720632!2d11.155235715644935!3d42.76307957914745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132d67a96aeea967%3A0x4c3d658063ab575a!2sGrosseto%2C%20GR!5e0!3m2!1sit!2sit!4v1716123456789"
             allowfullscreen
             loading="lazy"
           ></iframe>
@@ -42,23 +42,22 @@
         <div class="contact-info">
           <div class="info-item">
             <i class="fas fa-map-pin"></i>
-            <p>58022 Follonica (GR)<br />Toscana, Italia</p>
+            <p>58100 Grosseto (GR)<br />Toscana, Italia</p>
           </div>
           <div class="info-item">
             <i class="fas fa-clock"></i>
             <p>
               <strong>Orari di apertura:</strong><br />
-              Martedi - Domenica: 16:00 – 22:30<br>
-              Lunedì: Chiuso
+              Tutti i giorni: 12:00 – 15:00 / 19.00 - 23:00
             </p>
           </div>
           <div class="info-item">
             <i class="fas fa-phone-alt"></i>
-            <p><a href="tel:+390566234567">+39 0566 234567</a></p>
+            <p><a href="tel:+390564234567">+39 0564 234567</a></p>
           </div>
           <div class="info-item">
             <i class="fas fa-envelope"></i>
-            <p><a href="mailto:info@21oven.com">info@21oven.com</a></p>
+            <p><a href="mailto:info@gol_d_ramen.com">info@gol_d_ramen.com</a></p>
           </div>
            <div class="info-item">
   <i class="fas fa-file-alt" aria-hidden="true"></i>

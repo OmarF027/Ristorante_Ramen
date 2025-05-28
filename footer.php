@@ -3,9 +3,9 @@
         <section class="social__media">
             <div class="social__media--wrap">
                 <div class="footer__logo">
-                    <p class="website__rights">58022 Follonica (GR)</p>
+                    <p class="website__rights">58100 Grosseto (GR)</p>
                 </div>
-                <p class="website__rights">© 2025 21OVEN – Tutti i diritti riservati</p>
+                <p class="website__rights">© 2025 GOL D. RAMEN – Tutti i diritti riservati</p>
                 <div class="social__icons">
                     <a class="social__icon--link" href="https://www.facebook.com" target="_blank" aria-label="Facebook">
                         <i class="fab fa-facebook"></i>

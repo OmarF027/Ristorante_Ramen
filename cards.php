@@ -1,31 +1,31 @@
 <section id="menù" class="sezione">
     <div class="section-inner">
-        <h2 style="margin-top: -20px;">Le nostre specialità!</h2>
+        <h2 style="margin-top: -20px;">Il ramen di cui avevi bisogno</h2>
         <div class="grid">
-            <!-- Card Pizza Margherita -->
+            <!-- Card Cucina -->
             <div class="item gallery-item">
-                <img src="img/margherita.jpg" alt="Pizza Margherita Verace con pomodoro San Marzano e mozzarella di bufala DOP">
+                <img src="img/chef.jpg" alt="Cucina a vista">
                 <div class="content">
-                    <h3>Margherita Verace</h3>
-                    <p>L'icona della pizza napoletana, semplice ma perfetta: pomodoro San Marzano, mozzarella di bufala DOP, basilico fresco, olio extravergine.</p>
+                    <h3>Cucina a vista</h3>
+                    <p>Guarda i nostri chef preparare il brodo tonkotsu in pentoloni aperti, seguendo l'antica tradizione di cottura lenta che richiede oltre 18 ore di lavorazione.</p>
                 </div>
             </div>
             
-            <!-- Card Pizza Burrata e Crudo -->
+            <!-- Card Impasto -->
             <div class="item gallery-item">
-                <img src="img/burrata.jpg" alt="Pizza con Burrata fresca, Crudo di Parma e rucola">
+                <img src="img/impasto2.jpg" alt="Impasto fatto a mano">
                 <div class="content">
-                    <h3>Burrata e Crudo</h3>
-                    <p>Base bianca con burrata fresca, prosciutto crudo di Parma aggiunto a freddo, rucola e scaglie di grana.</p>
+                    <h3>Impasto fatto a mano</h3>
+                    <p>Ogni mattina prepariamo la pasta per i noodles con farina di grano tenero e acqua alcalina, seguendo il metodo tradizionale del "kneading and stretching".</p>
                 </div>
             </div>
             
-            <!-- Card Pizza Diavola -->
+            <!-- Card Ricetta -->
             <div class="item gallery-item">
-                <img src="img/diavola.jpg" alt="Pizza Diavola con salamino piccante">
+                <img src="img/kitchen.jpg" alt="Ricetta originale">
                 <div class="content">
-                    <h3>Diavola</h3>
-                    <p>Base con pomodoro fresco, mozzarella fior di latte e salamino piccante.</p>
+                    <h3>Ricetta originale</h3>
+                    <p>La nostra miscela segreta di shoyu (salsa di soia) e dashi, arricchita con katsuobushi e kombu, crea un umami unico tramandato da 3 generazioni.</p>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
 
 <div class="order-button-container">
     <a href="menu.php" class="order-button">
-       <span>SCOPRI DI PIÙ</span>
+       <span>SCOPRI IL NOSTRO MENÙ</span>
        <span class="hover-effect"></span>
     </a>
 </div>

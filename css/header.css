@@ -105,15 +105,15 @@ header {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    transform: translateX(100%) !important;
+    transform: translateY(-100%) !important;
 }
 
 .navigation.open {
     display: flex !important;
     opacity: 1 !important;
     pointer-events: auto !important;
-    transform: translateX(0) !important;
-    background-color: #B22222 !important; 
+    transform: translateY(0) !important;
+    background-color: #34495e !important; 
 }
 
 .navigation ul {
@@ -162,19 +162,19 @@ header {
         left: 0 !important;
         width: 100% !important;
         height: 100% !important;
-        background-color: #B22222 !important;
+        background-color: #34495e !important;
         padding: 0 !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        transform: translateX(100%) !important; /* Partenza fuori dallo schermo */
+        transform: translateY(-100%) !important; /* Partenza fuori dallo schermo */
         transition: transform var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1) !important; /* Animazione fluida */
         opacity: 1 !important; /* Forza opacità piena */
         pointer-events: none !important; /* Disabilita interazioni quando è chiuso */
     }
 
     .navigation.open {
-        transform: translateX(0) !important;
+        transform: translateY(0) !important;
         pointer-events: auto !important; /* Riabilita interazioni quando aperto */
     }
 

@@ -5,7 +5,7 @@ $isHome = ($currentPage === 'index.php');
 <header>
     <div class="logo">
         <a href="index.php" aria-label="Vai alla home">
-            <img src="img/logo3.jpg" alt="Logo 21OVEN" />
+            <img src="img/logo.jpg" alt="Logo GOL D. RAMEN" />
         </a>
     </div>
 

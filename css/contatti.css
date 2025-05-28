@@ -1,7 +1,7 @@
 /* Sezione Contatti */
 .contact-page .contact-section {
     padding: 80px 0;
-    color: #000; /* testi neri */
+    color: #fff; /* testi neri */
 }
 
 /* Titolo H1 */
@@ -56,7 +56,7 @@
 /* Card map e info */
 .contact-page .map-card,
 .contact-page .info-card {
-    background-color: #E74C3C !important;
+    background-color: #34495e !important;
     color: #e0e0e0 !important;
     border-radius: 15px;
     padding: 30px;
@@ -90,7 +90,7 @@
 /* Testi neri forzati dentro le card */
 .contact-page .map-card *,
 .contact-page .info-card * {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 /* Titoli sezioni */
@@ -99,12 +99,12 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    color: #000;
+    color: #fff;
 }
 
 .contact-page .section-title i {
     margin-right: 10px;
-    color: #000;
+    color: #fff;
 }
 
 /* Mappa responsive */
@@ -137,26 +137,26 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 1s ease-out forwards;
-    color: #000;
+    color: #fff;
 }
 
 .contact-page .info-item i {
     font-size: 1.4rem;
     justify-self: center;
-    color: #000;
+    color: #fff;
 }
 
 .contact-page .info-item p,
 .contact-page .info-item a {
     margin: 0;
-    color: #000;
+    color: #fff;
     font-size: 1.1rem;
 }
 
 .contact-page .info-item a {
     text-decoration: none;
     transition: text-decoration 0.3s;
-    color: #000;
+    color: #fff;
 }
 
 .contact-page .info-item a:hover {

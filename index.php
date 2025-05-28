@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>21OVEN | Pizzeria</title>
+    <title>GOL D. RAMEN | Ristorante</title>
 
     <!-- Font e Icone -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
@@ -25,12 +25,20 @@
 <?php include('header.php'); ?>
 
 <!-- Sezione Home -->
-<div id="home" class="section" style="position: relative; padding: 180px 20px; text-align: center; background: url('img/pizza8.jpg') no-repeat center center; background-size: cover; color: #ffffff;">
-    <!-- Overlay scuro per migliorare la leggibilità del testo -->
-    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.4);"></div>
+<div id="home" class="section" style="position: relative; padding: 180px 20px; text-align: center; color: #ffffff; overflow: hidden;">
+
+  <!-- Video di sfondo responsive -->
+  <video autoplay muted loop playsinline
+         style="position: absolute; top: 50%; left: 50%; width: auto; height: 100%; min-width: 100%; min-height: 100%; transform: translate(-50%, -50%); object-fit: cover; z-index: -2;">
+    <source src="video/ramen.mp4" type="video/mp4">
+    Il tuo browser non supporta il video.
+  </video>
+
+  <!-- Overlay scuro per migliorare la leggibilità del testo -->
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.4); z-index: -1;"></div>
 
     <h1 class="section-title" style="margin: 0; display: inline-block; font-size: 3.5em;">
-       <span class="highlight">21OVEN</span>
+       <span class="highlight">GOL D. RAMEN</span>
     </h1>
     
     <p style="max-width: 800px;
@@ -44,7 +52,7 @@
            animation-delay: 0.4s;
            text-align: left;
            display: block;">
-        <strong>Acqua, lievito, farina e sale</strong>: gli ingredienti in cui crediamo. Il nostro impasto, con <strong>farina 00</strong>, è <strong>idratato al 70%</strong> e <strong>lievitato 48 ore</strong> per leggerezza e alta digeribilità.
+        <strong>Il vero tesoro? Lo trovi qui!</strong> Un equilibrio perfetto tra tradizione giapponese e innovazione continua: ogni dettaglio del nostro ramen è pensato per sorprenderti.
     </p>
 </div>
 
@@ -74,42 +82,6 @@
 <div style="border-bottom: 3px solid #dcdcdc;"></div>
 
 <?php include('lavora.php'); ?>
-
-<style>
-    .whatsapp-icon {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #25D366;
-        color: white;
-        padding: 15px 18px;
-        border-radius: 50%;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        z-index: 1000;
-        transition: all 0.3s ease;
-        text-decoration: none;
-        font-size: 28px;
-        line-height: 1;
-    }
-    .whatsapp-icon:hover {
-        transform: scale(1.1) rotate(15deg);
-        background-color: #128C7E;
-        box-shadow: 0 6px 12px rgba(0,0,0,0.4);
-    }
-    
-    @media (max-width: 768px) {
-        .whatsapp-icon {
-            bottom: 15px;
-            right: 15px;
-            padding: 12px 15px;
-            font-size: 24px;
-        }
-    }
-</style>
-
-<a href="https://wa.me/39123456789" class="whatsapp-icon" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-whatsapp"></i>
-</a>
 
 <?php include('footer.php'); ?>
 

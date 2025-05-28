@@ -142,7 +142,7 @@ a.back-link {
     display: inline-block;
     margin-top: 25px;
     font-weight: 600;
-    color: #0066cc;
+    color: #000;
     text-decoration: none;
 }
 

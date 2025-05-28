@@ -113,11 +113,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['lavora_form'])) {
 <div class="text-content" id="lavora">
     <h1 class="lavora-title">Lavora con noi</h1>
 
-    <p><strong>Stiamo cercando te!</strong></p>
+    <p><strong>Sei pronto a fare la differenza?</strong></p>
 
-    <p>Stai cercando nuove opportunità di carriera? Siamo sempre alla ricerca di persone entusiaste e motivate per entrare a far parte del team di <strong>21OVEN</strong>.</p>
+   <p>In <strong>GOL D. RAMEN</strong> cerchiamo persone motivate e appassionate pronte a entrare a far parte del nostro team. Sali a bordo!</p>
 
-    <p>Compila il form qui sotto e inviaci la tua candidatura: ti contatteremo al più presto. Unisciti a una realtà giovane, dinamica e in continua crescita.</p>
+    <p>Compila il form qui sotto e inviaci la tua candidatura: ti contatteremo al più presto.</p>
 </div>
 
 <!-- Sezione form -->
